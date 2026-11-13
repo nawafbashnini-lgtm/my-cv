@@ -1,0 +1,219 @@
+/* ==========================
+   Global Page Settings
+   ========================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ==========================
+   Header Section
+   ========================== */
+header {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    font-size: 16px;
+    color: #cbd5e1;
+    margin: 0 0 20px 0;
+}
+
+/* Profile Image Styling */
+header img {
+    width: 150px;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+/* ==========================
+   Navigation Bar
+   ========================== */
+nav {
+    background-color: #0f172a;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+/* ==========================
+   Main Content Area
+   ========================== */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Descendant Selector */
+section h2 {
+    font-size: 24px;
+    color: #1e293b;
+    border-bottom: 2px solid #cbd5e1;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Content Sections (Box Model) */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #f1f5f9;
+    padding: 15px 20px;
+    border-left: 4px solid #1e293b;
+    border-radius: 4px;
+}
+
+/* ==========================
+   Tables Styling
+   ========================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+/* ==========================
+   Lists Styling
+   ========================== */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+dt {
+    font-weight: bold;
+    color: #0f172a;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+    color: #475569;
+}
+
+/* ==========================
+   Forms Styling
+   ========================== */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Button Styling with Transition and Hover */
+button {
+    background-color: #1e293b;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #334155;
+    transform: translateY(-2px);
+}
+
+/* ==========================
+   Footer Section
+   ========================== */
+footer {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #334155;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
